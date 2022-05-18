@@ -1,0 +1,100 @@
+.body {
+    background: center / cover no-repeat  url('/PaginaM14/Fotos-Pagina/fondojuegos.jpg');
+}
+
+.img4 {
+    width: 100%;
+    max-height: calc(100vh - 173px);
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+}
+
+.divf3 {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    margin-top: -5px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+    .divf3 { 
+        position: relative;
+        margin-top: 15px;
+    }
+  }
+
+#listaMedia {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    height: calc(100vh - 173px);
+}
+
+@media only screen and (max-width: 768px) {
+    #listaMedia { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        max-width: 340px;
+        margin: auto;
+        height: auto;
+    }
+  }
+
+.img5 {
+    position: relative;
+    height: 350px;
+    filter: grayscale(100%);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    overflow: visible;
+    transition: transform .2s;
+}
+
+@media only screen and (max-width: 768px) {
+    .img5 { 
+        filter: grayscale(0%);
+        height: 200px;
+        width: 150px;
+        margin: 5px;
+    }
+}
+
+.img5:hover {
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px) {
+    .img5:hover { 
+        filter: grayscale(0%);
+        transform: scale(1.0);
+    }
+}
+
+.img6 {
+    animation-name: scrollMovementAnimation;
+    animation-duration: 2000ms;
+    animation-play-state: running;
+    animation-timing-function: linear;
+  }
+  @keyframes scrollMovementAnimation {
+    0% {
+
+        opacity: 0;
+    }
+    100% {
+
+        opacity: 1;
+    }
+}

@@ -1,0 +1,96 @@
+.div10 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.img3b {
+    height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .img3b { 
+        height: 215px;
+    }
+}
+
+.texto1 {
+    width: 888px;
+    background: rgba(0, 0, 0, 0.8); 
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .texto1 { 
+        width: 382px;
+    }
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    color: #FBC230;
+    font-size: 30px;
+    font-family: compacta;
+    margin: auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.texto3 {
+    color: white;
+    font-weight: bold;
+}
+
+.texto3b {
+    margin-left: 4px;
+    color: white;
+}
+
+.texto3c {
+    display: flex;
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 0px;
+    color: white;
+    justify-content: center;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row2 {
+    margin-bottom: 20px;
+}
+
+.row > p {
+    display: inline;
+}
+
+.row2 > p {
+    display: inline;
+}
+
+.cuadrotxt {
+    margin: 10px
+}
+
+.imagenfondo {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+.divf {
+    margin-top: 0;
+}
+
+.parafinal {
+    min-height: calc(100vh - 194px);
+}

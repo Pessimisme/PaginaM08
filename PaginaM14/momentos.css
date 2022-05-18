@@ -1,0 +1,58 @@
+#listaMoments {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1670px;
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #listaMoments { 
+        margin-left: -8px;
+    }
+}
+
+.cuadrado4 {
+    width: 500px;
+    background-color: black;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.imagen {
+    width: 500px;
+    height: 280px;
+}
+
+@media only screen and (max-width: 768px) {
+    .imagen { 
+        width: 340px;
+        height: auto;
+    }
+}
+
+.texto1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'compacta';
+    color: #FBC230;
+    font-size: 25px;
+}
+
+.texto2 {
+    color: white;
+    margin: 5px;
+}
+
+.divf {
+    margin-top: 0;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "idM": 0,
+        "Nombre": "Borderlands",
+        "Imagen": "./Media/borderlands1.png",
+        "Caratula": "./Media/juego1.png",
+        "Fecha": "20 de Octubre de 2009",
+        "Sinopsis": "Borderlands se desarrolla en el planeta Pandora. Atraídas por las aparentemente vastos yacimientos minerales, muchas naves colonizadores de la Dahl Corporation (una de las muchas diversas mega-corporaciones que aparentemente controlan y gobiernan planetas enteros) viajaron al planeta para construir asentamientos. ",
+        "Valoracion": "81/100"
+    },
+    {
+        "idM": 1,
+        "Nombre": "Borderlands 2",
+        "Imagen": "./Media/borderlands2.png",
+        "Caratula": "./Media/juego2.png",
+        "Fecha": "18 de Septiembre de 2012",
+        "Sinopsis": "El juego se sitúa 5 años después de su anterior título Borderlands. Jack el guapo, antagonista principal, ha tomado la corporación Hyperion, y se ha autoproclamado dictador de Pandora tras haber encontrado \"La Cámara\". El nuevo grupo viaja en tren en busca de La Cámara. Pero resulta ser una trampa de Jack pues quiere eliminar a todos los buscadores de la cámara, y el vagón donde viajaban resulta ser un vagón lleno de explosivos, pero los buscadores sobreviven a este atentado, al ser rescatados por Clap-Trap, deciden continuar con su búsqueda de la cámara, y asesinar a Jack y traer de vuelta la paz a Pandora.",
+        "Valoracion": "90/100"
+    },
+    {
+        "idM": 2,
+        "Nombre": "Borderlands The Pre-Sequel",
+        "Imagen": "./Media/borderlandstps.png",
+        "Caratula": "./Media/juego3.jpg",
+        "Fecha": "14 de Octubre de 2014",
+        "Sinopsis": "Después de lo acontecido en el episodio 1 de Borderlands y lo próximo que va suceder en el episodio 2 de Borderlands 2; la historia comienza cuando Athena es prisionera, por parte de Lilith y la resistencia de la Lanza Carmesí. Athena empieza a narrar su historia de cómo se unió al héroe que quería salvar la luna del planeta Pandora y este se vuelve villano en el transcurso de la historia, conocido como Jack.",
+        "Valoracion": "75/100"
+    },
+    {
+        "idM": 3,
+        "Nombre": "Borderlands 3",
+        "Imagen": "./Media/borderlands3.png",
+        "Caratula": "./Media/juego5.png",
+        "Fecha": "13 de Septiembre de 2019",
+        "Sinopsis": "Siete años después de la muerte de Jack el Guapo y la caída de Hyperion, los antagonistas del videojuego Troy y Tyreen Calypso se enteran de otras Cámaras más allá del planeta Pandora, y forman un culto violento llamado \"Hijos de la cámara\" para tomar posesión de ellos. Lilith, un personaje que hace aparición en los anteriores juegos de la saga, recluta a nuevos \"buscacamaras\" para ayudar a detener a los gemelos Calypso. Muchos personajes de juegos anteriores de Borderlands regresarán, incluidos los del videojuego derivado Tales from the Borderlands.",
+        "Valoracion": "81/100"
+    },
+    {
+        "idM": 4,
+        "Nombre": "Tales from the Borderlands",
+        "Imagen": "./Media/tftb.png",
+        "Caratula": "./Media/juego4.png",
+        "Fecha": "25 de Noviembre de 2014",
+        "Sinopsis": "Tales from the Borderlands se sitúa un tiempo después de Borderlands 2 en la cual un trabajador de la empresa \"Hyperion\" abandona Hyperion en busca de una llave de la cámara que lo conduce hacia una verdadera cámara, aventuras, buenos amigos, peligro y mucho más.",
+        "Valoracion": "85/100"
+    }
+]

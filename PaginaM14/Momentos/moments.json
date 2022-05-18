@@ -1,0 +1,107 @@
+[
+    {
+        "id": 0,
+        "Titulo": "Donde todo comenzo",
+        "Explicación": "Donde la saga comenzo, donde empezo todo, en el autobus de Marcus que fue a buscar a los primeros buscacamaras; Mordercai, Lilith, Roland y Brick",
+        "idM": 0,
+        "Imagen": "./Momentos/bl1intro.jpg"
+    },
+    {
+        "id": 1,
+        "Titulo": "Nine Toes",
+        "Explicación": "Despues de llegar a Fyrestone, los buscacamaras se encuentrar con un bandido que se hace llamar \"Nueve dedos\" que amenaza con quemar el pueblo entero",
+        "idM": 0,
+        "Imagen": "./Momentos/ninetoes.jpg"
+    },
+    {
+        "id": 2,
+        "Titulo": "El Destructor",
+        "Explicación": "Los buscacamaras llegan demasiado tarde para parar a la comandante Steele la cual muere asesinada por el Destructor, que es el ultimo jefe de Borderlands 1",
+        "idM": 0,
+        "Imagen": "./Momentos/finalbl1.png"
+    },
+    {
+        "id": 3,
+        "Titulo": "Buscacamaras Borderlands 2",
+        "Explicación": "Despues de que los nuevos buscacamaras luchen contra las tropas de Jack, se dan cuenta que tambien el vagon de tren en el que estaban tenia explosivos",
+        "idM": 1,
+        "Imagen": "./Momentos/personajesbl2.png"
+    },
+    {
+        "id": 4,
+        "Titulo": "Primer jefe de Borderlands 2",
+        "Explicación": "Despues de que Claptrap nos lleva a su refugio \"seguro\" aparece un Torosimio llamado Rastranudillos que le roba su ojo el cual tendremos que recuperar en una batalla la cual sera la primera contra un jefe",
+        "idM": 1,
+        "Imagen": "./Momentos/rastranudillos.png"
+    },
+    {
+        "id": 5,
+        "Titulo": "El Guardian despierta",
+        "Explicación": "Despues de la derrota de Jack el guapo, Jack, empieza a quejarse y acusar de como el busca camras ha podido derrotarle y justo la llave de la camara es cargada completamente por Lilith y Jack introduce la llave en la camara liberando asi al Guerrero el cual sera el ultimo jefe de la campaña de Borderlands 2",
+        "idM": 1,
+        "Imagen": "./Momentos/guardian.png"
+    },
+    {
+        "id": 6,
+        "Titulo": "Buscacamaras Borderlands 3",
+        "Explicación": "Despues de reunirse encuentran un cartel de la Lanza Carmesi buscando miembros. Van a puesto de informacion pero se encuentran que unos bandidos han tomado control de la base y deciden matarlos y despues de eso llega Marcus a recoger a los nuevos buscacamaras",
+        "idM": 2,
+        "Imagen": "./Momentos/introbl3.png"
+    },
+    {
+        "id": 7,
+        "Titulo": "El primer buscacamaras",
+        "Explicación": "Despues de derrotar a Troy Calpyso, Lilith recibe una llamada de Typhon DeLeon que les dice que les ayudara si vienen al planeta natal de las sirenas (Nekrotafeyo), que es donde vive",
+        "idM": 2,
+        "Imagen": "./Momentos/typhon.png"
+    },
+    {
+        "id": 8,
+        "Titulo": "Final Borderlands 3",
+        "Explicación": "Tras la batalla contra Tyreen Calypso, Tannis se da cuenta de que Elpis, sigue abriendo la Gran Camara y destrozando Pandora y que la unica manera de pararla es destruyendo Elpis. Lilith usando todo su poder destruye Elpis salvando Pandora y dejando un recuerdo en el espacio de que ella siempre estara ahi",
+        "idM": 2,
+        "Imagen": "./Momentos/lilith.png"
+    },
+    {
+        "id": 9,
+        "Titulo": "Y Claptrap, como un error",
+        "Explicación": "En la introduccion de todos los juegos de Borderlands hay una pequeña historia donde se pueden ver a los buscacamaras y sus habilidades, y en este entrega podemos ver que claptrap es uno de los personajes principales y su clase es \"Un error\"",
+        "idM": 3,
+        "Imagen": "./Momentos/claptrap.png"
+    },
+    {
+        "id": 10,
+        "Titulo": "Flame Knuckle",
+        "Explicación": "Justo antes de abandonar Elpis, se presenta anti ti un ultimo reto, Flame Knuckle",
+        "idM": 3,
+        "Imagen": "./Momentos/flame.png"
+    },
+    {
+        "id": 11,
+        "Titulo": "The Sentinel",
+        "Explicación": "Despues de un largo viaje, los buscacamaras y claptrap llegan a la camara, donde les espera el guardian de esta, \"The Centinel\"",
+        "idM": 3,
+        "Imagen": "./Momentos/ultimobltps.jpg"
+    },
+    {
+        "id": 12,
+        "Titulo": "Personajes de Tales From The Borderlands",
+        "Explicación": "Los personajes mas importantes de Tales From The Borderlands",
+        "idM": 4,
+        "Imagen": "./Momentos/personajestftb.jpg"
+    },
+    {
+        "id": 13,
+        "Titulo": "Gortys contra el Viajero",
+        "Explicación": "Despues de que detectaran a El Viajero el equipo de Rhys se prepara para luchar contra el con un robot gigante al cual le han implantado la I.A de Gortys",
+        "idM": 4,
+        "Imagen": "./Momentos/batalla.png"
+    },
+    {
+        "id": 14,
+        "Titulo": "Rhys y Jack",
+        "Explicación": "Tras ponerse un implante del antiguo jefe de Hyperion, Rhys, se da cuenta que una I.A de Jack el guapo vive en ella",
+        "idM": 4,
+        "Imagen": "./Momentos/rhysjack.png"
+    }
+]

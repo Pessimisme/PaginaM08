@@ -1,0 +1,159 @@
+#listaProductes2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 0;
+  min-height: calc(100vh - 248px);
+}
+
+.imagen1 {
+    height: 280px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.cuadrado3 {
+  justify-content: center;
+  margin: 25px;
+  flex-direction: column;
+  display: flex;
+  height: 380px;
+  width: 250px;
+  object-fit: fill;
+  background-color: black;
+}
+
+.textocmp1 {
+  font-family: 'compacta';
+  color: #FBC230;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.textocmp2 {
+  display: flex;
+  justify-content: center;
+}
+
+.textocmp3 {
+  color: white;
+  margin-top: 5px;
+}
+
+.espacio2 {
+  justify-content: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-direction: column;
+  display: flex;
+}
+
+.diversion {
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  max-width: 300px;
+}
+
+.titol {
+  color: #FBC230;
+  font-family: 'compacta';
+  font-size: 22px;
+}
+
+.autocenter { 
+  box-sizing: border-box;
+  margin-left: 1546px;
+  max-width: 1264px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 180px;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .autocenter { 
+    margin-left: 220px;
+  }
+}
+
+.controlExpandible {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  background-color: black;
+}
+
+.controlExpandible > .fletxa {
+  border-right: solid 2px white;
+  border-top: solid 2px white;
+  box-sizing: border-box;
+  height: 10px;
+  margin: 8px;
+  transform: rotate3d(0, 0, 1, 45deg);
+  transition: transform 0.25s ease;
+  width: 10px;  
+}
+
+#expandible {
+  background-color: black;
+  min-height: 0;
+  max-height: 0;
+  overflow: hidden;
+  height: 0;
+  transition: min-height 0.25s ease, max-height 0.25s ease;
+  width: 116px;
+  position: absolute;
+}
+
+#expandible > p {
+  justify-content: center;
+  display: flex;
+}
+
+.desplegado {
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.desplegado2 {
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.desplegado3 {
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.desplegado4 {
+  color: white;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: auto;
+}
+
+.desplegado5 {
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}

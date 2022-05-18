@@ -1,0 +1,167 @@
+.body { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(151, 12, 12);
+  }
+  
+  .overflow { 
+    overflow: hidden;
+  }
+  
+  .espacio {
+    color: #FBC230;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  
+  /* Fuentees custom */
+  
+  @font-face {
+    font-family: 'compacta';
+    src: url('Compacta.otf');
+  }
+  
+  /* Referencias */
+  
+  .aCenter {
+    display: flex;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+  /* Divs */
+  
+  .div1 { 
+    margin: 20px;
+    align-items: center;
+    position: relative;
+    background-color: #000000;
+    display: flex;
+    min-height: 50px;
+  }
+  
+  .div2 { 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .div3 {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .div3 { 
+      top: -2px;
+    }
+  }
+  
+  .divf {
+    margin-top: 40px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+  }
+  
+  /* Imagenes */
+  
+  .img1  { 
+    max-width: 50px;
+    margin: 5px;
+    margin-bottom: 0;
+    /* Por si el margin sale mal
+    padding-left: 4px;
+    padding-top: 4px;
+    */
+  }
+
+  @media only screen and (max-width: 768px) {
+    .img1 { 
+      display: none;
+    }
+  }
+  
+  .img2 { 
+    max-width: 250px;
+    position: relative;
+    overflow: visible;
+    transition: transform .2s;
+  }
+  
+  .img2:hover {
+    transform: scale(1.2);
+  }
+
+  @media only screen and (max-width: 768px) {
+    .img2:hover { 
+      transform: scale(1.0);
+    }
+  }
+  
+  /* Botones */
+  .bot1 {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .bot1 { 
+      margin: 10px;
+      font-size: 12px;
+    }
+  }
+  
+  .bot2 {
+    color: #FBC230;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .bot2 { 
+      margin: 10px;
+      font-size: 12px;
+    }
+  }
+  
+  
+  .botf {
+    color: #FBC230;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px;
+  }

@@ -1,0 +1,271 @@
+.body {
+  background: center / cover no-repeat  url('/PaginaM14/Productos/fondoproducto.jpg');
+}
+
+#listaProductes2 {
+  margin-top: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  #listaProductes2 { 
+    margin-top: 50px;
+  }
+}
+
+.cuadrado4 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .cuadrado4 { 
+    flex-direction: column;
+  }
+}
+
+.diviertete {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .diviertete { 
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+.prueba1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: #FBC230;
+  border-style: solid;
+  border-color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .prueba1 { 
+    width: 380px;
+  }
+}
+
+.pruebaimg1 {
+  height: 380px;
+  width: auto;
+}
+
+.pruebaimg2 {
+  height: auto;
+  max-width: 400px;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .pruebaimg2 { 
+    max-width: 375px;
+  }
+}
+
+.prueba5 {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .prueba5 { 
+    margin-bottom: 10px;
+    justify-content: center;
+    
+  }
+}
+
+.cuadrado3 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgm2b {
+  width: 200px;
+  height: 300px;
+}
+
+.prueba7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #FBC230;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.prueba8 {
+  object-fit: contain;
+  height: 100%;
+  max-width: 38px;
+}
+
+.prueba4 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+}
+
+.prueba6 {
+  width: auto;
+  height: 100%;
+  max-width: 44px;
+  max-height: 44px;
+}
+
+.espacio2 {
+  margin-left: 20px;
+}
+
+.prueba2 {
+  width: 250px;
+  height: 250px; 
+  background-color: #000000;
+}
+
+.prueba3 {
+  width: auto;
+  height: 300px;
+  position: absolute;
+  background-color: #FBC230;
+}
+
+.titulo1 {
+  font-size: 30px;
+  color: #FBC230;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .titulo1 { 
+    width: 354px;
+  }
+}
+
+.textodiv {
+  margin-left: 16px;
+  height: 406px;
+  background-color: #000000;
+  width: 644px;
+}
+
+@media only screen and (max-width: 768px) {
+  .textodiv { 
+    margin-left: 0;
+    height: auto;
+    width: 386px;
+  }
+}
+
+.textodiv3 {
+  margin-top: 16px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .textodiv3 { 
+    width: 352px;
+  }
+}
+
+.textodiv3 > p {
+  display: inline;
+}
+
+.textodiv4 {
+  margin-top: 16px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .textodiv4 { 
+    width: 352px;
+  }
+}
+
+.textodiv4 > p {
+  display: inline;
+}
+
+.parafinal {
+  min-height: calc(100vh - 324px);
+}
+
+.titulo2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.texto1 {
+  color: white;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .texto1 { 
+    width: 370px;
+  }
+}
+
+.texto2 {
+  color: white;
+  margin-left: 4px;
+}
+
+.titulo3 {
+  color: white;
+  font-weight: bold;
+}
+
+.fondo {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%
+}
+
+@media only screen and (max-width: 768px) {
+  .fondo { 
+    height: 958px;
+  }
+}
+
+.divf2 {
+  margin-top: 39px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .divf2 { 
+    margin-top: 62px;
+  }
+}
